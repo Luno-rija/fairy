@@ -1,0 +1,93 @@
+      .container-fluid{
+            height: 100vh;
+       } 
+       .containerGreen{
+         background: url('/img/grass.jpg');  
+       }
+       .container{
+            height: 626px;  
+            position: relative;
+       }
+       .enter_house{
+            position: absolute;
+            bottom: 0px;
+            right: 1px;
+            height: 626px;
+            width: 561px;
+            z-index: 1;
+        }
+        .enter_fairy{
+            height: 103px;
+            position: absolute;
+            top: 474px;
+            right: 372px;
+            z-index: 2;
+
+        }
+        .enter_wolf{
+            position: absolute;
+            width: 127px;
+            height: 73px;
+            top: 544px;
+            right: 426px;
+            z-index: 1;
+        }
+        .enter_prirodaTwo{
+            position: absolute;
+            width: 510px;
+            height: 168px;
+            top: 168px;
+            right: 592px;
+            z-index: 1;
+        }
+        .enter_button{
+        
+            border-radius: 17px;
+            background: brown;
+            width: 208px;
+            height: 57px;
+            position: absolute;
+            left: 200px;
+            top: 415px;
+            font-size: 27px;
+            color: #fff;
+            
+        }
+        .enter_button:hover{
+            border: 4px solid rgb(69, 30, 210);
+            color:#ffffff;
+            background:darkcyan;
+        }
+
+        .enter_cat{
+            position: absolute;
+            width: 36px;
+            height: 49px;
+            top: 297px;
+            right: 697px;
+            z-index: 2;
+        }
+         .track_mini{
+            position: absolute;
+            width: 161px;
+            height: 49px;
+            top: 571px;
+            right: 340px;
+            z-index: 2
+        }
+        .reg, .auth{
+            position: absolute;
+            color :#fff;
+            top: 100px;
+            left: 50px;
+            width: 273px;
+            z-index: 3;
+        }
+        h1{
+           position: absolute;
+            color: #fff;
+            top: 11px;
+            left: 336px;
+            font-size: 71px;
+            z-index: 3;
+        }
